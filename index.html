@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta property="og:title" content="Gairloch Summer 2026">
+    <meta property="og:description" content="The Rennies and the Mowats summer escape to Gairloch. Enjoy stunning coastal views, fresh Highland air, and a relaxing week of great company in one of Scotland’s most beautiful destinations.">
+    <meta property="og:image" content="https://fraser.epizy.com/php/images/gairlich.jpg">
+    <meta property="og:url" content="https://fraser.epizy.com/php/Index.php">
+    <meta property="og:type" content="website">
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
+	<link href="redirect.css?v=0001" rel="stylesheet">
+    <title>Gairloch Summer 2026</title>
+    <script>
+        window.onload = function () {
+            // Get the query string (everything after ?)
+            //const queryString = window.location.search;
+			const parts = document.URL.split("?");
+			let suffix = "";
+			if (parts.length > 1) {
+				suffix = "?" + parts[1];
+			}
+
+            // Define the target page
+            const targetPage = "http://holidays.fraser.epizy.com/";
+
+            // Redirect while preserving the query string
+            setTimeout(function () {
+    window.location.href = targetPage + suffix;
+}, 2000);
+        };
+    </script>
+    <style>
+body
+{
+	background-image: url(images/gairloch.jpg);
+}
+    </style>
+</head>
+<body>
+    <div class="heading">
+      <h1><span>Gairloch</span><span>2026</span></h1>
+    </div>
+    <div class="page">
+	    <p>Saturday 25 July to Saturday 1 August</p>
+      <p>The Rennies and the Mowats summer escape to Gairloch. Enjoy stunning coastal views, fresh Highland air, and a relaxing week of great company in one of Scotland’s most beautiful destinations.</p>
+      <p>Redirecting, please wait...</p>
+    </div>
+</body>
+</html>
